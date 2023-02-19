@@ -1,27 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { InputHTMLAttributes } from 'react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello World
-        </a>
-        <label htmlFor="">Hi I'm Sancho</label>
-      </header>
+        <TodoList />
     </div>
   );
+}
+
+function TodoList(){
+  return (
+    <div>TODOLIST</div>
+  )
 }
 
 export default App;
