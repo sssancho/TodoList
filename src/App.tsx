@@ -1,9 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { InputHTMLAttributes } from 'react';
 
 function App() {
+  debugger;
   return (
     <div className="App">
         <TodoList />
@@ -12,6 +10,7 @@ function App() {
 }
 
 function TodoList(){
+  debugger;
   return (
     <div>TODOLIST</div>
   )
