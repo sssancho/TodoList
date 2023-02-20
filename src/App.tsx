@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
         <TodoList />
+        <TodoList />
     </div>
   );
 }
@@ -12,7 +13,9 @@ function App() {
 function TodoList(){
   debugger;
   return (
-    <div>TODOLIST</div>
+    <div>
+      <h1>Learn and Be Better</h1>
+    </div>
   )
 }
 
